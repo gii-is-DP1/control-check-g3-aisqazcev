@@ -40,6 +40,12 @@
 					<span>Veterinarians</span>
 				</petclinic:menuItem>
 
+				<petclinic:menuItem active="${name eq 'recoveryroom'}" url="/recoveryroom"
+					title="recoveryroom">
+					<span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+					<span>Recoveryroom</span>
+				</petclinic:menuItem>
+
 				<petclinic:menuItem active="${name eq 'error'}" url="/oups"
 					title="trigger a RuntimeException to see how it is handled">
 					<span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
@@ -84,7 +90,7 @@
 								</div>
 							</li>
 							<li class="divider"></li>
-<!-- 							
+							<!-- 							
                             <li> 
 								<div class="navbar-login navbar-login-session">
 									<div class="row">
